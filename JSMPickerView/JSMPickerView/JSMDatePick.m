@@ -37,7 +37,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.definesPresentationContext = YES;
-    self.pickerTitle = @"请选择出生日期";
+    self.pickerTitle = @"请选择日期";
     [self initData];// 初始化数据
     [self showCurrentDate];// 显示当前日期
 }
